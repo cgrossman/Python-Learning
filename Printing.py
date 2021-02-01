@@ -52,3 +52,23 @@ def Printing():
     double quotes
     """)
 Printing()
+
+def SpecialCharacters():
+    special = "I am 6'2\". tall"
+    singlQuote = 'I am 6\'2" tall.'
+
+    print(special)
+    print(singlQuote)
+    
+#Escape    What it does
+#   \\     Backlash \
+#   \'     Single Quote
+#   \"     Double-Quote 
+#   \a
+#
+#
+#
+#
+#
+
+SpecialCharacters()
