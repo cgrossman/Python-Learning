@@ -1,0 +1,1 @@
+get-adgroup -Filter{name -like "App-QlikSense*"} | Select-Object Name
